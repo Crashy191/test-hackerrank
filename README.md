@@ -7,6 +7,22 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Installation and Optionals
+
+Open the project with the ide of preference, then execute the npm command:
+
+```js
+npm i
+```
+
+Later, run the proyect with npm command:
+```js
+npm run dev
+```
+
+The project runs by default in the port 8000, if you want to change it, just go to .env and switch VITE_REACT_APP_PORT property.
+
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
